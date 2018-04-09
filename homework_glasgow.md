@@ -63,3 +63,7 @@ UPDATE movies SET show_time = '22:00' WHERE title = 'Guardians of the Galaxy 2';
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+
+UPDATE people
+    SET name = 'Agent Smith'
+    WHERE name IN ('Sarah Bartlett', 'Nikhil Sharma', 'Victor Chugbo','Alan Russell');
